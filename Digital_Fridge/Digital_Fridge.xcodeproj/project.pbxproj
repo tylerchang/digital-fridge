@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270E8F3F2B7962A600FA9187 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E8F3E2B7962A600FA9187 /* NotificationsController.swift */; };
+		270E8F412B79C87E00FA9187 /* InfoCardViewManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E8F402B79C87E00FA9187 /* InfoCardViewManual.swift */; };
+		273865F42B68990200A85826 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273865F02B68990200A85826 /* BarcodeScannerView.swift */; };
+		273865F52B68990200A85826 /* OpenFoodFactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273865F22B68990200A85826 /* OpenFoodFactsController.swift */; };
+		273865F62B68990200A85826 /* OpenFoodFactsJSONResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273865F32B68990200A85826 /* OpenFoodFactsJSONResponseModel.swift */; };
+		273865F92B68997300A85826 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 273865F82B68997300A85826 /* CodeScanner */; };
+		273865FB2B6959F400A85826 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 273865FA2B6959F400A85826 /* .gitignore */; };
+		273865FF2B69768400A85826 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273865FE2B69768400A85826 /* LoginView.swift */; };
+		273866012B698C5B00A85826 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273866002B698C5B00A85826 /* InputView.swift */; };
+		273866032B69943200A85826 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273866022B69943200A85826 /* RegistrationView.swift */; };
+		273866052B69974400A85826 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273866042B69974400A85826 /* ProfileView.swift */; };
+		273866092B699A8800A85826 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273866082B699A8800A85826 /* User.swift */; };
+		2738660B2B699E7500A85826 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2738660A2B699E7500A85826 /* GoogleService-Info.plist */; };
+		2738660E2B699FE500A85826 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2738660D2B699FE500A85826 /* FirebaseAuth */; };
+		273866102B699FE500A85826 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2738660F2B699FE500A85826 /* FirebaseFirestore */; };
+		273866122B699FE500A85826 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 273866112B699FE500A85826 /* FirebaseFirestoreSwift */; };
+		273866142B699FE500A85826 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 273866132B699FE500A85826 /* FirebaseStorage */; };
+		273866182B69A05A00A85826 /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273866172B69A05A00A85826 /* FirebaseViewModel.swift */; };
+		275805342B671B020016CBD5 /* Digital_FridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275805332B671B020016CBD5 /* Digital_FridgeApp.swift */; };
+		275805362B671B020016CBD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275805352B671B020016CBD5 /* ContentView.swift */; };
+		275805382B671B040016CBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275805372B671B040016CBD5 /* Assets.xcassets */; };
+		2758053B2B671B040016CBD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2758053A2B671B040016CBD5 /* Preview Assets.xcassets */; };
+		275805452B671B050016CBD5 /* Digital_FridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275805442B671B050016CBD5 /* Digital_FridgeTests.swift */; };
+		2758054F2B671B050016CBD5 /* Digital_FridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758054E2B671B050016CBD5 /* Digital_FridgeUITests.swift */; };
+		275805512B671B050016CBD5 /* Digital_FridgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275805502B671B050016CBD5 /* Digital_FridgeUITestsLaunchTests.swift */; };
+		2764A1452B7BEE6300DC2A0F /* RecipeRecommenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764A1442B7BEE6300DC2A0F /* RecipeRecommenderView.swift */; };
+		2764A1472B7BF83300DC2A0F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764A1462B7BF83300DC2A0F /* Recipe.swift */; };
+		276959E02B7194C000DDEA0D /* ShelfLifeAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276959DF2B7194C000DDEA0D /* ShelfLifeAPIController.swift */; };
+		276959E22B71C64200DDEA0D /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276959E12B71C64200DDEA0D /* InfoCardView.swift */; };
+		276959E42B71CEFB00DDEA0D /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276959E32B71CEFB00DDEA0D /* TextfieldView.swift */; };
+		276959E62B71EF9A00DDEA0D /* ShelfLifeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276959E52B71EF9A00DDEA0D /* ShelfLifeDisplayView.swift */; };
+		276959E82B7205EC00DDEA0D /* CollectionPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276959E72B7205EC00DDEA0D /* CollectionPickerView.swift */; };
+		27D1E7222B689787004298B9 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1E71E2B689787004298B9 /* TextRecognizer.swift */; };
+		27D1E7232B689788004298B9 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1E71F2B689787004298B9 /* ScannerView.swift */; };
+		27D1E7242B689788004298B9 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1E7202B689787004298B9 /* ScanData.swift */; };
+		27D1E7252B689788004298B9 /* ReceiptScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1E7212B689787004298B9 /* ReceiptScannerView.swift */; };
+		27D8B7CC2B7C4EAF00F0F089 /* RecipeSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8B7CB2B7C4EAF00F0F089 /* RecipeSummary.swift */; };
+		27D8B7CE2B7C4EF800F0F089 /* RecipeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8B7CD2B7C4EF800F0F089 /* RecipeDisplayView.swift */; };
+		9C8F536F2B7B016600310F7A /* InventoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F536E2B7B016600310F7A /* InventoryCardView.swift */; };
+		9CA5912A2B78247600DD38FD /* InfoCardViewReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA591292B78247600DD38FD /* InfoCardViewReceipt.swift */; };
+		9CA591322B789AA200DD38FD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA591312B789AA200DD38FD /* Food.swift */; };
+		9CA591382B793CA500DD38FD /* FridgeInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA591372B793CA500DD38FD /* FridgeInventoryView.swift */; };
+		9CA5913A2B793CE600DD38FD /* FreezerInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA591392B793CE600DD38FD /* FreezerInventoryView.swift */; };
+		9CA5913C2B793D3B00DD38FD /* PantryInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5913B2B793D3B00DD38FD /* PantryInventoryView.swift */; };
+		9CB31BD42B6C4A830000516E /* ImportScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB31BD32B6C4A830000516E /* ImportScreenView.swift */; };
+		9CC9743A2B6B55E6004E5B25 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC974392B6B55E6004E5B25 /* HomeScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		275805412B671B050016CBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275805282B671B020016CBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2758052F2B671B020016CBD5;
+			remoteInfo = Digital_Fridge;
+		};
+		2758054B2B671B050016CBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275805282B671B020016CBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2758052F2B671B020016CBD5;
+			remoteInfo = Digital_Fridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270E8F3C2B79622700FA9187 /* Digital-Fridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Digital-Fridge-Info.plist"; sourceTree = SOURCE_ROOT; };
+		270E8F3E2B7962A600FA9187 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		270E8F402B79C87E00FA9187 /* InfoCardViewManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardViewManual.swift; sourceTree = "<group>"; };
+		273865F02B68990200A85826 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		273865F22B68990200A85826 /* OpenFoodFactsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenFoodFactsController.swift; sourceTree = "<group>"; };
+		273865F32B68990200A85826 /* OpenFoodFactsJSONResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenFoodFactsJSONResponseModel.swift; sourceTree = "<group>"; };
+		273865FA2B6959F400A85826 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		273865FE2B69768400A85826 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		273866002B698C5B00A85826 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		273866022B69943200A85826 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		273866042B69974400A85826 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		273866082B699A8800A85826 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2738660A2B699E7500A85826 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		273866172B69A05A00A85826 /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		275805302B671B020016CBD5 /* Digital_Fridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digital_Fridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275805332B671B020016CBD5 /* Digital_FridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_FridgeApp.swift; sourceTree = "<group>"; };
+		275805352B671B020016CBD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		275805372B671B040016CBD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2758053A2B671B040016CBD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		275805402B671B050016CBD5 /* Digital_FridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Digital_FridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		275805442B671B050016CBD5 /* Digital_FridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_FridgeTests.swift; sourceTree = "<group>"; };
+		2758054A2B671B050016CBD5 /* Digital_FridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Digital_FridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2758054E2B671B050016CBD5 /* Digital_FridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_FridgeUITests.swift; sourceTree = "<group>"; };
+		275805502B671B050016CBD5 /* Digital_FridgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_FridgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2764A1442B7BEE6300DC2A0F /* RecipeRecommenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeRecommenderView.swift; sourceTree = "<group>"; };
+		2764A1462B7BF83300DC2A0F /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		276959DF2B7194C000DDEA0D /* ShelfLifeAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfLifeAPIController.swift; sourceTree = "<group>"; };
+		276959E12B71C64200DDEA0D /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		276959E32B71CEFB00DDEA0D /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
+		276959E52B71EF9A00DDEA0D /* ShelfLifeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfLifeDisplayView.swift; sourceTree = "<group>"; };
+		276959E72B7205EC00DDEA0D /* CollectionPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPickerView.swift; sourceTree = "<group>"; };
+		27D1E71E2B689787004298B9 /* TextRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		27D1E71F2B689787004298B9 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		27D1E7202B689787004298B9 /* ScanData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		27D1E7212B689787004298B9 /* ReceiptScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptScannerView.swift; sourceTree = "<group>"; };
+		27D8B7CB2B7C4EAF00F0F089 /* RecipeSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSummary.swift; sourceTree = "<group>"; };
+		27D8B7CD2B7C4EF800F0F089 /* RecipeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDisplayView.swift; sourceTree = "<group>"; };
+		9C8F536E2B7B016600310F7A /* InventoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCardView.swift; sourceTree = "<group>"; };
+		9CA591292B78247600DD38FD /* InfoCardViewReceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardViewReceipt.swift; sourceTree = "<group>"; };
+		9CA591312B789AA200DD38FD /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		9CA591372B793CA500DD38FD /* FridgeInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeInventoryView.swift; sourceTree = "<group>"; };
+		9CA591392B793CE600DD38FD /* FreezerInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreezerInventoryView.swift; sourceTree = "<group>"; };
+		9CA5913B2B793D3B00DD38FD /* PantryInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryInventoryView.swift; sourceTree = "<group>"; };
+		9CB31BD32B6C4A830000516E /* ImportScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportScreenView.swift; sourceTree = "<group>"; };
+		9CC974392B6B55E6004E5B25 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2758052D2B671B020016CBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273865F92B68997300A85826 /* CodeScanner in Frameworks */,
+				2738660E2B699FE500A85826 /* FirebaseAuth in Frameworks */,
+				273866102B699FE500A85826 /* FirebaseFirestore in Frameworks */,
+				273866142B699FE500A85826 /* FirebaseStorage in Frameworks */,
+				273866122B699FE500A85826 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2758053D2B671B050016CBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275805472B671B050016CBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270E8F3D2B79628C00FA9187 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				270E8F3E2B7962A600FA9187 /* NotificationsController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		273865EF2B68990200A85826 /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				273865F02B68990200A85826 /* BarcodeScannerView.swift */,
+				273865F12B68990200A85826 /* OpenFoodFacts */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		273865F12B68990200A85826 /* OpenFoodFacts */ = {
+			isa = PBXGroup;
+			children = (
+				273865F22B68990200A85826 /* OpenFoodFactsController.swift */,
+				273865F32B68990200A85826 /* OpenFoodFactsJSONResponseModel.swift */,
+			);
+			path = OpenFoodFacts;
+			sourceTree = "<group>";
+		};
+		273865FD2B695ECB00A85826 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				273865FE2B69768400A85826 /* LoginView.swift */,
+				273866002B698C5B00A85826 /* InputView.swift */,
+				273866022B69943200A85826 /* RegistrationView.swift */,
+				273866042B69974400A85826 /* ProfileView.swift */,
+				273866082B699A8800A85826 /* User.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		275805272B671B020016CBD5 = {
+			isa = PBXGroup;
+			children = (
+				273865FA2B6959F400A85826 /* .gitignore */,
+				275805322B671B020016CBD5 /* Digital_Fridge */,
+				275805432B671B050016CBD5 /* Digital_FridgeTests */,
+				2758054D2B671B050016CBD5 /* Digital_FridgeUITests */,
+				275805312B671B020016CBD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		275805312B671B020016CBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275805302B671B020016CBD5 /* Digital_Fridge.app */,
+				275805402B671B050016CBD5 /* Digital_FridgeTests.xctest */,
+				2758054A2B671B050016CBD5 /* Digital_FridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275805322B671B020016CBD5 /* Digital_Fridge */ = {
+			isa = PBXGroup;
+			children = (
+				2764A1432B7BEE6300DC2A0F /* Recipes */,
+				270E8F3D2B79628C00FA9187 /* Notifications */,
+				270E8F3C2B79622700FA9187 /* Digital-Fridge-Info.plist */,
+				9CB31BD02B6C4A2E0000516E /* ImportScreen */,
+				9CC974382B6B55C3004E5B25 /* HomeScreen */,
+				27FED73D2B69D18C0058438A /* Firebase */,
+				273865FD2B695ECB00A85826 /* Authentication */,
+				273865EF2B68990200A85826 /* BarcodeScanner */,
+				27D1E71D2B689787004298B9 /* ReceiptScanner */,
+				275805332B671B020016CBD5 /* Digital_FridgeApp.swift */,
+				275805352B671B020016CBD5 /* ContentView.swift */,
+				2738660A2B699E7500A85826 /* GoogleService-Info.plist */,
+				275805372B671B040016CBD5 /* Assets.xcassets */,
+				275805392B671B040016CBD5 /* Preview Content */,
+			);
+			path = Digital_Fridge;
+			sourceTree = "<group>";
+		};
+		275805392B671B040016CBD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2758053A2B671B040016CBD5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		275805432B671B050016CBD5 /* Digital_FridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				275805442B671B050016CBD5 /* Digital_FridgeTests.swift */,
+			);
+			path = Digital_FridgeTests;
+			sourceTree = "<group>";
+		};
+		2758054D2B671B050016CBD5 /* Digital_FridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2758054E2B671B050016CBD5 /* Digital_FridgeUITests.swift */,
+				275805502B671B050016CBD5 /* Digital_FridgeUITestsLaunchTests.swift */,
+			);
+			path = Digital_FridgeUITests;
+			sourceTree = "<group>";
+		};
+		2764A1432B7BEE6300DC2A0F /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				2764A1442B7BEE6300DC2A0F /* RecipeRecommenderView.swift */,
+				2764A1462B7BF83300DC2A0F /* Recipe.swift */,
+				27D8B7CB2B7C4EAF00F0F089 /* RecipeSummary.swift */,
+				27D8B7CD2B7C4EF800F0F089 /* RecipeDisplayView.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		276959E92B72E49200DDEA0D /* InfoCard */ = {
+			isa = PBXGroup;
+			children = (
+				276959E12B71C64200DDEA0D /* InfoCardView.swift */,
+				270E8F402B79C87E00FA9187 /* InfoCardViewManual.swift */,
+				9CA591292B78247600DD38FD /* InfoCardViewReceipt.swift */,
+				276959E52B71EF9A00DDEA0D /* ShelfLifeDisplayView.swift */,
+				276959E32B71CEFB00DDEA0D /* TextfieldView.swift */,
+				276959E72B7205EC00DDEA0D /* CollectionPickerView.swift */,
+				9C8F536E2B7B016600310F7A /* InventoryCardView.swift */,
+			);
+			path = InfoCard;
+			sourceTree = "<group>";
+		};
+		27D1E71D2B689787004298B9 /* ReceiptScanner */ = {
+			isa = PBXGroup;
+			children = (
+				27D1E71E2B689787004298B9 /* TextRecognizer.swift */,
+				27D1E71F2B689787004298B9 /* ScannerView.swift */,
+				27D1E7202B689787004298B9 /* ScanData.swift */,
+				27D1E7212B689787004298B9 /* ReceiptScannerView.swift */,
+			);
+			path = ReceiptScanner;
+			sourceTree = "<group>";
+		};
+		27FED73D2B69D18C0058438A /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				273866172B69A05A00A85826 /* FirebaseViewModel.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		9CB31BD02B6C4A2E0000516E /* ImportScreen */ = {
+			isa = PBXGroup;
+			children = (
+				276959E92B72E49200DDEA0D /* InfoCard */,
+				9CB31BD32B6C4A830000516E /* ImportScreenView.swift */,
+				276959DF2B7194C000DDEA0D /* ShelfLifeAPIController.swift */,
+			);
+			path = ImportScreen;
+			sourceTree = "<group>";
+		};
+		9CC974382B6B55C3004E5B25 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9CC974392B6B55E6004E5B25 /* HomeScreenView.swift */,
+				9CA591312B789AA200DD38FD /* Food.swift */,
+				9CA591372B793CA500DD38FD /* FridgeInventoryView.swift */,
+				9CA591392B793CE600DD38FD /* FreezerInventoryView.swift */,
+				9CA5913B2B793D3B00DD38FD /* PantryInventoryView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2758052F2B671B020016CBD5 /* Digital_Fridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275805542B671B050016CBD5 /* Build configuration list for PBXNativeTarget "Digital_Fridge" */;
+			buildPhases = (
+				2758052C2B671B020016CBD5 /* Sources */,
+				2758052D2B671B020016CBD5 /* Frameworks */,
+				2758052E2B671B020016CBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Digital_Fridge;
+			packageProductDependencies = (
+				273865F82B68997300A85826 /* CodeScanner */,
+				2738660D2B699FE500A85826 /* FirebaseAuth */,
+				2738660F2B699FE500A85826 /* FirebaseFirestore */,
+				273866112B699FE500A85826 /* FirebaseFirestoreSwift */,
+				273866132B699FE500A85826 /* FirebaseStorage */,
+			);
+			productName = Digital_Fridge;
+			productReference = 275805302B671B020016CBD5 /* Digital_Fridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2758053F2B671B050016CBD5 /* Digital_FridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275805572B671B050016CBD5 /* Build configuration list for PBXNativeTarget "Digital_FridgeTests" */;
+			buildPhases = (
+				2758053C2B671B050016CBD5 /* Sources */,
+				2758053D2B671B050016CBD5 /* Frameworks */,
+				2758053E2B671B050016CBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275805422B671B050016CBD5 /* PBXTargetDependency */,
+			);
+			name = Digital_FridgeTests;
+			productName = Digital_FridgeTests;
+			productReference = 275805402B671B050016CBD5 /* Digital_FridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		275805492B671B050016CBD5 /* Digital_FridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2758055A2B671B050016CBD5 /* Build configuration list for PBXNativeTarget "Digital_FridgeUITests" */;
+			buildPhases = (
+				275805462B671B050016CBD5 /* Sources */,
+				275805472B671B050016CBD5 /* Frameworks */,
+				275805482B671B050016CBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2758054C2B671B050016CBD5 /* PBXTargetDependency */,
+			);
+			name = Digital_FridgeUITests;
+			productName = Digital_FridgeUITests;
+			productReference = 2758054A2B671B050016CBD5 /* Digital_FridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275805282B671B020016CBD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2758052F2B671B020016CBD5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2758053F2B671B050016CBD5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2758052F2B671B020016CBD5;
+					};
+					275805492B671B050016CBD5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2758052F2B671B020016CBD5;
+					};
+				};
+			};
+			buildConfigurationList = 2758052B2B671B020016CBD5 /* Build configuration list for PBXProject "Digital_Fridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 275805272B671B020016CBD5;
+			packageReferences = (
+				273865F72B68997300A85826 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				2738660C2B699FE500A85826 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 275805312B671B020016CBD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2758052F2B671B020016CBD5 /* Digital_Fridge */,
+				2758053F2B671B050016CBD5 /* Digital_FridgeTests */,
+				275805492B671B050016CBD5 /* Digital_FridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2758052E2B671B020016CBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2758053B2B671B040016CBD5 /* Preview Assets.xcassets in Resources */,
+				2738660B2B699E7500A85826 /* GoogleService-Info.plist in Resources */,
+				273865FB2B6959F400A85826 /* .gitignore in Resources */,
+				275805382B671B040016CBD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2758053E2B671B050016CBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275805482B671B050016CBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2758052C2B671B020016CBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270E8F412B79C87E00FA9187 /* InfoCardViewManual.swift in Sources */,
+				2764A1472B7BF83300DC2A0F /* Recipe.swift in Sources */,
+				276959E22B71C64200DDEA0D /* InfoCardView.swift in Sources */,
+				276959E02B7194C000DDEA0D /* ShelfLifeAPIController.swift in Sources */,
+				275805362B671B020016CBD5 /* ContentView.swift in Sources */,
+				273866052B69974400A85826 /* ProfileView.swift in Sources */,
+				270E8F3F2B7962A600FA9187 /* NotificationsController.swift in Sources */,
+				27D1E7232B689788004298B9 /* ScannerView.swift in Sources */,
+				9CA591322B789AA200DD38FD /* Food.swift in Sources */,
+				27D8B7CC2B7C4EAF00F0F089 /* RecipeSummary.swift in Sources */,
+				9CC9743A2B6B55E6004E5B25 /* HomeScreenView.swift in Sources */,
+				9C8F536F2B7B016600310F7A /* InventoryCardView.swift in Sources */,
+				9CA5912A2B78247600DD38FD /* InfoCardViewReceipt.swift in Sources */,
+				276959E82B7205EC00DDEA0D /* CollectionPickerView.swift in Sources */,
+				27D1E7222B689787004298B9 /* TextRecognizer.swift in Sources */,
+				273866032B69943200A85826 /* RegistrationView.swift in Sources */,
+				273866182B69A05A00A85826 /* FirebaseViewModel.swift in Sources */,
+				9CA5913C2B793D3B00DD38FD /* PantryInventoryView.swift in Sources */,
+				2764A1452B7BEE6300DC2A0F /* RecipeRecommenderView.swift in Sources */,
+				273865F42B68990200A85826 /* BarcodeScannerView.swift in Sources */,
+				273866092B699A8800A85826 /* User.swift in Sources */,
+				27D8B7CE2B7C4EF800F0F089 /* RecipeDisplayView.swift in Sources */,
+				275805342B671B020016CBD5 /* Digital_FridgeApp.swift in Sources */,
+				27D1E7252B689788004298B9 /* ReceiptScannerView.swift in Sources */,
+				27D1E7242B689788004298B9 /* ScanData.swift in Sources */,
+				273865F62B68990200A85826 /* OpenFoodFactsJSONResponseModel.swift in Sources */,
+				273866012B698C5B00A85826 /* InputView.swift in Sources */,
+				9CA5913A2B793CE600DD38FD /* FreezerInventoryView.swift in Sources */,
+				273865FF2B69768400A85826 /* LoginView.swift in Sources */,
+				9CB31BD42B6C4A830000516E /* ImportScreenView.swift in Sources */,
+				9CA591382B793CA500DD38FD /* FridgeInventoryView.swift in Sources */,
+				276959E62B71EF9A00DDEA0D /* ShelfLifeDisplayView.swift in Sources */,
+				276959E42B71CEFB00DDEA0D /* TextfieldView.swift in Sources */,
+				273865F52B68990200A85826 /* OpenFoodFactsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2758053C2B671B050016CBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275805452B671B050016CBD5 /* Digital_FridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275805462B671B050016CBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275805512B671B050016CBD5 /* Digital_FridgeUITestsLaunchTests.swift in Sources */,
+				2758054F2B671B050016CBD5 /* Digital_FridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		275805422B671B050016CBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2758052F2B671B020016CBD5 /* Digital_Fridge */;
+			targetProxy = 275805412B671B050016CBD5 /* PBXContainerItemProxy */;
+		};
+		2758054C2B671B050016CBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2758052F2B671B020016CBD5 /* Digital_Fridge */;
+			targetProxy = 2758054B2B671B050016CBD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		275805522B671B050016CBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		275805532B671B050016CBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275805552B671B050016CBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digital_Fridge/Preview Content\"";
+				DEVELOPMENT_TEAM = RM8294AJV7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Fridge-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Preserve;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Preserve requires camera usage, please enable to continue.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ColoradoCollege.Digital-Fridges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		275805562B671B050016CBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digital_Fridge/Preview Content\"";
+				DEVELOPMENT_TEAM = RM8294AJV7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Fridge-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Preserve;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Preserve requires camera usage, please enable to continue.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ColoradoCollege.Digital-Fridges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		275805582B671B050016CBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RM8294AJV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ColoradoCollege.Digital-FridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital_Fridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digital_Fridge";
+			};
+			name = Debug;
+		};
+		275805592B671B050016CBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RM8294AJV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ColoradoCollege.Digital-FridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital_Fridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digital_Fridge";
+			};
+			name = Release;
+		};
+		2758055B2B671B050016CBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RM8294AJV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ColoradoCollege.Digital-FridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digital_Fridge;
+			};
+			name = Debug;
+		};
+		2758055C2B671B050016CBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RM8294AJV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ColoradoCollege.Digital-FridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digital_Fridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2758052B2B671B020016CBD5 /* Build configuration list for PBXProject "Digital_Fridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275805522B671B050016CBD5 /* Debug */,
+				275805532B671B050016CBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275805542B671B050016CBD5 /* Build configuration list for PBXNativeTarget "Digital_Fridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275805552B671B050016CBD5 /* Debug */,
+				275805562B671B050016CBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275805572B671B050016CBD5 /* Build configuration list for PBXNativeTarget "Digital_FridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275805582B671B050016CBD5 /* Debug */,
+				275805592B671B050016CBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2758055A2B671B050016CBD5 /* Build configuration list for PBXNativeTarget "Digital_FridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2758055B2B671B050016CBD5 /* Debug */,
+				2758055C2B671B050016CBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		273865F72B68997300A85826 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+		2738660C2B699FE500A85826 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		273865F82B68997300A85826 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 273865F72B68997300A85826 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		2738660D2B699FE500A85826 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2738660C2B699FE500A85826 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2738660F2B699FE500A85826 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2738660C2B699FE500A85826 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		273866112B699FE500A85826 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2738660C2B699FE500A85826 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		273866132B699FE500A85826 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2738660C2B699FE500A85826 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 275805282B671B020016CBD5 /* Project object */;
+}
